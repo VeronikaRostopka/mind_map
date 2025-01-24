@@ -1,0 +1,327 @@
+.conclusion-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.conclusion-list {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.conclusion-list li {
+  margin-bottom: 15px;
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.final-thought {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(44, 62, 80, 0.05);
+  border-left: 4px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.final-thought p {
+  font-style: italic;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .conclusion-list li {
+    font-size: 1rem;
+  }
+
+  .final-thought {
+    margin-top: 20px;
+    padding: 15px;
+  }
+}
+
+.intro-highlight {
+  background: rgba(44, 62, 80, 0.05);
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 8px;
+  border-left: 4px solid #2c3e50;
+}
+
+.highlight-list {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.highlight-list li {
+  margin-bottom: 12px;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.intro-list strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Адаптивність для нових елементів */
+@media (max-width: 768px) {
+  .intro-highlight {
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .highlight-list li {
+    font-size: 1rem;
+  }
+}
+
+.intro-section,
+.conclusion-section {
+  padding: 60px 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section h2,
+.conclusion-section h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.intro-section p,
+.conclusion-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Адаптивність для вступу та висновків */
+@media (max-width: 768px) {
+  .intro-section,
+  .conclusion-section {
+    padding: 30px 15px;
+    margin: 20px auto;
+  }
+
+  .intro-section h2,
+  .conclusion-section h2 {
+    font-size: 2rem;
+  }
+
+  .intro-section p,
+  .conclusion-section p {
+    font-size: 1.1rem;
+  }
+
+  .intro-list li,
+  .conclusion-list li {
+    font-size: 1rem;
+  }
+}
+
+.intro-content,
+.conclusions-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-list,
+.conclusions-list {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.intro-list li,
+.conclusions-list li {
+  margin-bottom: 15px;
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.content-highlight {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(44, 62, 80, 0.05);
+  border-left: 4px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.content-highlight p {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.content-highlight ul {
+  padding-left: 20px;
+}
+
+.content-highlight li {
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+/* Додаємо стилі для футера */
+footer {
+  background: #1a237e;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.developers-footer {
+  margin-bottom: 30px;
+}
+
+.developers-footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.developers-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.developers-footer li {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.developers-footer li:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transform: translateY(-2px);
+}
+
+footer p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .developers-footer h3 {
+    font-size: 1.2rem;
+  }
+
+  .developers-footer li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Оновлені стилі для верхньої частини сайту */
+.team-header {
+  background: linear-gradient(135deg, #6366f1, #3b82f6); /* Градієнтний фон */
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" fill="none"/></svg>')
+    center/60px 60px;
+  opacity: 0.1;
+}
+
+.team-header h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.team-members {
+  max-width: 1000px;
+  margin: 0 auto;
+  columns: 2;
+  column-gap: 40px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.team-members ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-members li {
+  margin-bottom: 15px;
+  color: #1e293b;
+  font-size: 1.2rem;
+  break-inside: avoid;
+  transition: all 0.3s ease;
+  padding: 12px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.team-members li:hover {
+  transform: translateY(-3px);
+  background: #6366f1;
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* Адаптивність для хедера */
+@media (max-width: 768px) {
+  .team-header {
+    padding: 30px 15px;
+  }
+
+  .team-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .team-members {
+    columns: 1;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .team-members li {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+}
