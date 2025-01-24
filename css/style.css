@@ -1,0 +1,80 @@
+.mind-map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f3e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-item {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 50%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center-item img {
+  max-width: 80%;
+  height: auto;
+}
+
+.items-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.item-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mind-item {
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  text-align: center;
+}
+
+.first-circle .mind-item {
+  /* Розташування елементів по колу */
+  transform-origin: center;
+}
+
+.second-circle .mind-item {
+  /* Розташування елементів по більшому колу */
+  transform-origin: center;
+}
+
+/* Анімація при наведенні */
+.mind-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .center-item {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mind-item {
+    min-width: 120px;
+    padding: 10px;
+  }
+}
