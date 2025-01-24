@@ -173,65 +173,55 @@
 
 /* Додаємо стилі для футера */
 footer {
-  background: #1a237e;
-  color: white;
+  background: rgba(44, 62, 80, 0.95);
+  color: #fff;
   padding: 40px 20px;
+  margin-top: 60px;
 }
 
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+.developers {
+  max-width: 800px;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
-.developers-footer {
-  margin-bottom: 30px;
-}
-
-.developers-footer h3 {
+.developers h3 {
   font-size: 1.4rem;
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 15px;
+  color: #ecf0f1;
 }
 
-.developers-footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+.developers-list {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.developers-footer li {
-  color: rgba(255, 255, 255, 0.8);
-  padding: 8px 15px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-.developers-footer li:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  transform: translateY(-2px);
+.developers-list li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #bdc3c7;
 }
 
 footer p {
-  margin-top: 20px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Адаптивність */
 @media (max-width: 768px) {
-  .developers-footer h3 {
+  footer {
+    padding: 30px 15px;
+    margin-top: 40px;
+  }
+
+  .developers h3 {
     font-size: 1.2rem;
   }
 
-  .developers-footer li {
-    font-size: 0.8rem;
+  .developers-list li {
+    font-size: 1rem;
   }
 }
 
